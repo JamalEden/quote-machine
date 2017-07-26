@@ -1,0 +1,57 @@
+html{
+    position: relative;
+    height: auto;
+    min-height: 100%
+}
+body{
+    background: url("wisdom1.jpg");
+    background-size: cover
+}
+.container-fluid{
+    text-align: center
+}
+h1,p{
+    color: #38009a
+}
+blockquote{
+    width: 70%;
+    height: 100px;
+    background: rgba(230, 253, 217, .8);
+    border: 0;
+    border-radius: 6px;
+    margin: 20 auto;
+    box-shadow: inset 0 0 10px #70c5ca
+}
+#quote-text{
+    padding-top: 10px;
+    display: block;
+    margin-top: 0 auto
+}
+blockquote footer{
+    text-align: center
+}
+.navbar{
+    background-color: #c6b796
+}
+footer a:hover,
+footer a:link,
+footer a:active,
+footer a:visited{
+    text-decoration: none;
+    font-weight: bold
+}
+   
+.navbar-text{
+    margin-left: 10px
+}
+@media (min-width:450px){
+    h1{
+        font-size: 2em
+    }
+    p{
+        font-size: 1em
+    }
+    blockquote{
+        font-size: 1em
+    }
+}
